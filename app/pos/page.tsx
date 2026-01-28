@@ -1,8 +1,8 @@
 "use client";
 
-import Tabs from "@/components/ui/Tabs";
-import ProductCard from "@/components/ui/ProductCard";
-import OrderSummary from "@/components/ui/OrderSummary";
+import Tabs from "@/components/pos/Tabs";
+import ProductCard from "@/components/pos/ProductCard";
+import OrderSummary from "@/components/pos/OrderSummary";
 
 const products = [
   { id: 1, name: "Classic Burger", price: 5.99, desc: "Beef patty with lettuce, tomato, pickles" },
